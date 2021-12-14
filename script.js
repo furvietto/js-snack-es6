@@ -7,7 +7,7 @@
 
 function generateArray(min, max, ...myarguments) {
    const include = myarguments.filter((element,index) => {
-        
+        // return
         return index > min && index < max
         
    })
