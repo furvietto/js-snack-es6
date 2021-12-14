@@ -3,6 +3,8 @@
 // La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
 // Usiamo i nuovi metodi degli array foreach o filter.
 
+
+
 function generateArray(min, max, ...myarguments) {
    const include = myarguments.filter((element,index) => {
         
